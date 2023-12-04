@@ -1,0 +1,87 @@
+===============================================================================
+Run time for packet processing was 3.337000 seconds
+Snort processed 56753 packets.
+Snort ran for 0 days 0 hours 0 minutes 3 seconds
+   Pkts/sec:        18917
+===============================================================================
+Packet I/O Totals:
+   Received:        56753
+   Analyzed:        56753 (100.000%)
+    Dropped:            0 (  0.000%)
+   Filtered:            0 (  0.000%)
+Outstanding:            0 (  0.000%)
+   Injected:            0
+===============================================================================
+Breakdown by protocol (includes rebuilt packets):
+        Eth:        56753 (100.000%)
+       VLAN:            0 (  0.000%)
+        IP4:        54415 ( 95.880%)
+       Frag:            0 (  0.000%)
+       ICMP:            0 (  0.000%)
+        UDP:          159 (  0.280%)
+        TCP:        54256 ( 95.600%)
+        IP6:          192 (  0.338%)
+    IP6 Ext:          256 (  0.451%)
+   IP6 Opts:           64 (  0.113%)
+      Frag6:            0 (  0.000%)
+      ICMP6:          192 (  0.338%)
+       UDP6:            0 (  0.000%)
+       TCP6:            0 (  0.000%)
+     Teredo:            0 (  0.000%)
+    ICMP-IP:            0 (  0.000%)
+      EAPOL:            0 (  0.000%)
+    IP4/IP4:            0 (  0.000%)
+    IP4/IP6:            0 (  0.000%)
+    IP6/IP4:            0 (  0.000%)
+    IP6/IP6:            0 (  0.000%)
+        GRE:            0 (  0.000%)
+    GRE Eth:            0 (  0.000%)
+   GRE VLAN:            0 (  0.000%)
+    GRE IP4:            0 (  0.000%)
+    GRE IP6:            0 (  0.000%)
+GRE IP6 Ext:            0 (  0.000%)
+   GRE PPTP:            0 (  0.000%)
+    GRE ARP:            0 (  0.000%)
+    GRE IPX:            0 (  0.000%)
+   GRE Loop:            0 (  0.000%)
+       MPLS:            0 (  0.000%)
+        ARP:         1246 (  2.195%)
+        IPX:            0 (  0.000%)
+   Eth Loop:            0 (  0.000%)
+   Eth Disc:            0 (  0.000%)
+   IP4 Disc:            0 (  0.000%)
+   IP6 Disc:            0 (  0.000%)
+   TCP Disc:            0 (  0.000%)
+   UDP Disc:            0 (  0.000%)
+  ICMP Disc:            0 (  0.000%)
+All Discard:            0 (  0.000%)
+      Other:          900 (  1.586%)
+Bad Chk Sum:            0 (  0.000%)
+    Bad TTL:            0 (  0.000%)
+     S5 G 1:            0 (  0.000%)
+     S5 G 2:            0 (  0.000%)
+      Total:        56753
+===============================================================================
+Action Stats:
+     Alerts:          617 (  1.087%)
+     Logged:          617 (  1.087%)
+     Passed:            0 (  0.000%)
+Limits:
+      Match:            0
+      Queue:            0
+        Log:            0
+      Event:            0
+      Alert:            0
+Verdicts:
+      Allow:        56753 (100.000%)
+      Block:            0 (  0.000%)
+    Replace:            0 (  0.000%)
+  Whitelist:            0 (  0.000%)
+  Blacklist:            0 (  0.000%)
+     Ignore:            0 (  0.000%)
+     (null):            0 (  0.000%)
+===============================================================================
+Snort exiting
+
+
+
